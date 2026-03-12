@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -40,15 +39,10 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
-
-# Binary Files
-Binaries/*
-Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -73,3 +67,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+*.pdb
