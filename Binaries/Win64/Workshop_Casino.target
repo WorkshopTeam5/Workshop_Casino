@@ -4435,6 +4435,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Editor/AssetSearch/AssetSearch.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Editor/BlueprintHeaderView/BlueprintHeaderView.uplugin",
 			"Type": "UFS"
 		},
@@ -4987,6 +4991,14 @@
 			"Type": "NonUFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/BlueprintAssist/BlueprintAssist.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/LowEntryExtStdLib/LowEntryExtStdLib.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Workshop_Casino.uproject",
 			"Type": "UFS"
 		}
@@ -5011,14 +5023,18 @@
 		"AppleMoviePlayer",
 		"ArchVisCharacter",
 		"AssetManagerEditor",
+		"AssetSearch",
 		"AssetTags",
+		"AssetsCleaner",
 		"AudioCapture",
 		"AudioSynesthesia",
 		"AudioWidgets",
+		"AutoSizeComments",
 		"AutomationUtils",
 		"AvfMedia",
 		"BackChannel",
 		"BlendSpaceMotionAnalysis",
+		"BlueprintAssist",
 		"BlueprintHeaderView",
 		"Bridge",
 		"CLionSourceCodeAccess",
@@ -5064,6 +5080,7 @@
 		"EditorPerformance",
 		"EditorScriptingUtilities",
 		"EditorTelemetry",
+		"ElectronicNodes",
 		"EngineAssetDefinitions",
 		"EngineCameras",
 		"EnhancedInput",
@@ -5106,6 +5123,7 @@
 		"LiveLink",
 		"LocalizableMessage",
 		"LocationServicesBPLibrary",
+		"LowEntryExtStdLib",
 		"MacGraphicsSwitching",
 		"MassInsights",
 		"MaterialAnalyzer",
